@@ -1,0 +1,6 @@
+Dec 22 16:00:01 omarchy systemd[1614]: Starting Automatically sync Obsidian vault to GitHub...
+Dec 22 16:00:01 omarchy (vault.sh)[72505]: [0;1;39m[0;1;31m[0;1;39mobsidian-sync.service: Unable to locate executable '/home/koorosh/scripts/sync_vault.sh': No such file or directory[0m
+Dec 22 16:00:01 omarchy (vault.sh)[72505]: [0;1;31m[0;1;39m[0;1;31mobsidian-sync.service: Failed at step EXEC spawning /home/koorosh/scripts/sync_vault.sh: No such file or directory[0m
+Dec 22 16:00:01 omarchy systemd[1614]: [0;1;39m[0;1;31m[0;1;39mobsidian-sync.service: Main process exited, code=exited, status=203/EXEC[0m
+Dec 22 16:00:01 omarchy systemd[1614]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mobsidian-sync.service: Failed with result 'exit-code'.[0m
+Dec 22 16:00:01 omarchy systemd[1614]: [0;1;31m[0;1;39m[0;1;31mFailed to start Automatically sync Obsidian vault to GitHub.[0m
