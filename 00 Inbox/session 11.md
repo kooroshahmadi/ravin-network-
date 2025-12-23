@@ -512,4 +512,7 @@ Overview of Routing Types:
 		Default Routing: a router forwards all unknown traffic to a predefined next-hop.
 Feature - static routing - dynamic routing
 configuration - manual - automated
-adapribility - automatic changes - adapts to network changes
+adaptability - automatic changes - adapts to network changes
+CPU usage - low - high
+Scalability - Limited - high
+
