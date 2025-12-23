@@ -65,4 +65,8 @@ in 192.168.100.0 example
 
 Overview of Defaul Gateway:
 	Definition: a network device (usually a router) that acts as an intermediary for forwarding packets from a local network to external networks, including the internet.
-	
+	Function: when a device wants to communicate with an IP outside its subnet, it sends the packet to the default gateway.
+	the gateway routes the packet to th eappropriate destination.
+	Configuration: the default gateway is typically the first IP address in the subnet (e.g., 192.168.1.1 for home networks).
+	Why its Important? the default gateway connects local networks to external networks, enabling internet access and inter-subnet communication.
+
