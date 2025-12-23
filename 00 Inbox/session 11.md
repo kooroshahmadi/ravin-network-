@@ -553,12 +553,22 @@ Link-State Routing Protocols:
 	Link-State routing protocols build a complete network topology map to determine the best path.
 	How it Works:
 		each router builds a full network map using the shortest path first (SPF) algorithm.
-		Routing tables are updated dynamically when network changs occur.
+		Routing tables are updated dynamically when network changes occur.
 	Characteristics: 
 		uses bandwidth, delay, and link cost as metrics (not just hop count).
 		Faster convergence that distance-vector protocols.
 		Less bandwidth usage due to triggered updates instead of periodic updates.
 	Common Link-State Protocols:
 		OSPF (open shortest path first): open standard protocol used in enterprise networks.
-		IS-IS (intermediate system to intermediate system): udes on ISP and large-scale networks.
-	
+		IS-IS (intermediate system to intermediate system): used on ISP and large-scale networks.
+
+Overview of NAT/PAT:
+	Definition: NAT (network address translation) and PAT (port address translation) are techniques used to modify IP address information in packet headers to allow multiple devices on a private network to share a single public IP address.
+	How it Works:
+		NAT: translates private IP address to a public IP address (one-to-one mapping).
+		PAT: Translates multiple private IP addresses to a single public IP address by using different port numbers (many-to-one mapping).
+	Types of NAT:
+		Static NAT: one-to-one mapping of a private mapping of a private IP to a public IP.
+		Dynamic NAT: A pool of public IP addresses is used, and private IPs are mapped dynamically to available addresses.
+		PAT (overloading): multiple private IP addresses are mapped to a single public address, distinguished buy port numbers.
+
