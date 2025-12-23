@@ -21,3 +21,6 @@ Overview of MAC Address:
 	How it Works: the MAC address is used by devices to identify each other on a local network. it's used for data link layer communication (layer 2 of OSI).
 	Characteristics: Globally unique and assigned by the hardware manufacturer.
 	Permanent
+
+mac address is unchangable by default
+using ip config you see your devices IP
