@@ -529,8 +529,23 @@ Overview of Static Routing:
 Overview of Dynamic Routing:
 	Definition: routing protocols determine the best path for data packets between networks.
 	Types of Routing protocols:
-		DIstance-Vector: Determines routes based on hop count (e.g., RIP, EIGRP).
+		Distance-Vector: Determines routes based on hop count (e.g., RIP, EIGRP).
 		Link-State: Builds a complete network map for better path decisions (e.g., OSPF, IS-IS).
 		Hybrid: Combines features of both types (e.g., BGP).
 	Routing Protocol Operation:
-		
+		Routers exchange information about network topology.
+		Best path selection based on protocol-specific metrics.
+		Routing table updates dynamically as the network changes.
+	Key Metrics Used in Routing Protocols:
+		Hop Count: Number of routers a packet crosses.
+		Bandwidth: Link speed affects route preference.
+		Delay: Time taken to reach the destination.
+		Cost/Administrative Distance: Determines route priority.
+Feature, RIP, EIGRP
+Primary Metric, Hop Count, multiple metrics (delay, bandwidth, reliability, load)
+Max Hop Limit, 15 hops, 255 hops
+complexity, very simple, moderately complex (but more flexible)
+Vendor dependency, vendor-neutral (open standard), Cisco proprietary
+convergence speed, slow, fast.
+
+
