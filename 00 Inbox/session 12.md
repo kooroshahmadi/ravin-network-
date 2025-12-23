@@ -70,3 +70,12 @@ Overview of Defaul Gateway:
 	Configuration: the default gateway is typically the first IP address in the subnet (e.g., 192.168.1.1 for home networks).
 	Why its Important? the default gateway connects local networks to external networks, enabling internet access and inter-subnet communication.
 
+Note: default gateway is normaly the first IP
+
+Overview of Loopback and APIPA:
+	Loopback Address:
+		The loopback address (127.0.0.1) is used for testing and troubleshooting network applications locally without needing a network connection.
+		The entire 127.x.x.x range is reserved for loopback.
+	APIPA (Automatic Private IP Addressing):
+		When a device connot obtain an IP address form a DHCP server, it  automatically assigns itself an IP address in the range 168.254.x.x range. (between 169.254.0.1 and 168.254.255.254).
+		This al
