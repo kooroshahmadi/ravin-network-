@@ -572,3 +572,159 @@ Overview of NAT/PAT:
 		Dynamic NAT: A pool of public IP addresses is used, and private IPs are mapped dynamically to available addresses.
 		PAT (overloading): multiple private IP addresses are mapped to a single public address, distinguished buy port numbers.
 
+## What is Network Address Translation (NAT)?
+
+It is a Private [IP address](https://www.geeksforgeeks.org/computer-science-fundamentals/what-is-an-ip-address/) or local address that is translated into the public IP address. NAT is used to slow down the rate of decrease of the available IP address by translating the local IP or Private IP address into a global or public IP address. NAT can be a one-to-one relation or many-to-one relation. 
+
+![Network Address Translation](https://media.geeksforgeeks.org/wp-content/uploads/20190524121551/Untitled-Diagram-45.png)
+
+### Example:
+
+Consider a home network with three devices: a computer, a smartphone, and a smart TV. Without NAT, each of these devices would need to have a unique public IP address to connect to the internet. However, with NAT, all of these devices can share a single public IP address and communicate with the internet by using their private IP addresses. When one of the devices sends a request to the internet, NAT translates the private IP address of the device into the public IP address of the network and sends the request over the internet.
+
+## What is Port Address Translation (PAT)?
+
+****In Port Address Translation (PAT)****, Private IP address are translated into the public IP address through port numbers. PAT also uses IPv4 address but with port number. It have two types:
+
+****1.**** Static  
+****2.**** Overloaded PAT 
+
+![Port Address translation](https://media.geeksforgeeks.org/wp-content/uploads/20190524122542/Untitled-Diagram-46.png)
+
+### Example:
+
+Consider a home network with three devices: a computer, a smartphone, and a smart TV. Without PAT, each of these devices would need to have a unique public IP address to connect to the internet. However, with PAT, all of these devices can share a single public IP address and communicate with the internet by using unique port numbers. When the computer sends a request to the internet, PAT assigns it a unique port number and translates the private IP address of the computer into the public IP address of the network. The destination server on the internet receives the request and responds to the unique port number, allowing the computer to receive the response.
+
+## ****Difference Between Network Address Translation (NAT) and Port Address Translation (PAT)****
+
+|Network Address Translation (NAT)|Port Address Translation (PAT)|
+|---|---|
+|[NAT](https://www.geeksforgeeks.org/computer-networks/network-address-translation-nat/) stands for Network Address Translation.|[PAT](https://www.geeksforgeeks.org/computer-networks/port-address-translation-pat-on-adaptive-security-appliance-asa/) stands for Port Address Translation.|
+|In NAT, Private IP addresses are translated into the public IP address.|In PAT, [Private IP addresses](https://www.geeksforgeeks.org/computer-networks/private-ip-addresses-in-networking/) are translated into the public IP address via Port numbers.|
+|NAT can be considered PAT's superset.|PAT is a dynamic NAT.|
+|NAT uses [IPv4](https://www.geeksforgeeks.org/computer-networks/what-is-ipv4/) address.|PAT also uses IPv4 address but with port number.|
+|It have 3 types: Static, Dynamic NAT and PAT/ NAT Overloading/IP masquerading.|It also have two types: Static and Overloaded PAT.|
+
+## Role of NAT and PAT in Making Internet Routing Efficient
+
+- ****NAT and PAT can improve security:**** NAT can help to improve security by hiding the private IP addresses of devices on a private network from the internet. This can make it more difficult for malicious actors to target specific devices on the network, as they would not be able to see the private IP addresses of the devices. PAT can also help to improve security by allowing devices on a private network to communicate with the internet using unique port numbers, which can make it more difficult for attackers to gain access to the network.
+
+- ****NAT and PAT can improve performance:**** NAT and PAT can also improve performance by allowing devices on a private network to share a single public IP address. This can help to reduce the number of routing entries in the routing table of the router, which can improve the efficiency of internet routing.
+
+- ****NAT and PAT have limitations:**** While NAT and PAT can help to make internet routing more efficient, they do have some limitations. NAT can cause issues with certain types of internet applications that rely on end-to-end communication, such as Voice over IP (VoIP) and online gaming. PAT can also cause issues with certain types of internet applications that rely on multiple connections, such as BitTorrent.
+
+- ****NAT and PAT are used in combination:**** NAT and PAT are often used in combination to make internet routing more efficient. For example, a corporate network may use NAT to allow multiple devices on the network to share a single public IP address, and then use PAT to allow multiple devices to communicate with the internet using unique port numbers.
+
+- ****IPv6 addresses can alleviate the need for NAT:**** NAT and PAT are primarily used to address the shortage of available IPv4 addresses. However, with the increasing adoption of IPv6 addresses, which are a newer type of IP address with a much larger address space, the need for NAT and PAT may decrease in the future.
+
+- NAT and PAT are not the only technologies for improving internet routing efficiency: There are other technologies that can also help to make internet routing more efficient, such as network address aggregation, network address translation – protocol translation (NAT-PT), and carrier-grade NAT (CGN).
+
+Network Address Translation (NAT) allows multiple devices in a private network to access the internet using a single public IP address. It helps conserve IPv4 addresses and hides internal systems for added security.
+
+- Translates private IPs to public IPs and vice versa.
+- Prevents IPv4 address exhaustion
+- Adds security by masking internal devices
+- Allows thousands of devices to share one public IP
+
+![7](https://media.geeksforgeeks.org/wp-content/uploads/20250203170255888522/7.jpg)
+
+Network Address Translation
+
+> ****Note:**** IPv4 provides only 2³² (about 4.3 billion) addresses, which is insufficient considering the massive number of devices connected to the Internet. NAT prevents IP exhaustion by enabling thousands of private devices to share a limited number of public IP addresses.
+
+## Working of NAT
+
+This explains how NAT functions:
+
+1. A device sends a request → reaches the NAT-enabled router.
+2. Router replaces the private IP with its public IP and assigns a unique port.
+3. NAT stores this mapping in the NAT table.
+4. When the server responds, NAT uses the stored entry to send the packet to the correct internal device.
+
+### ****Why this works:****
+
+- Many devices can share one public IP
+- Port numbers separate device traffic
+- Internal IPs stay hidden from the internet
+
+### Examples of NAT Usage
+
+- ****Connecting Private Networks to the Internet****: A NAT - enabled router translates all private IPs to a single public IP, allowing internal devices to access the Internet securely.
+- ****Linking Multiple Office Locations****: Organizations use NAT to translate IPs between branches, enabling communication across locations while maintaining private IP schemes internally.
+
+![working_of_nat](https://media.geeksforgeeks.org/wp-content/uploads/20250811151338096207/working_of_nat.webp)
+
+Working of NAT
+
+> ****Note:**** When the response arrives from the external server, NAT uses the stored entry to identify the correct internal device. It then replaces the public IP and port with the original private IP and forwards the packet back to the device.
+
+# Why NAT Masks Port Numbers?
+
+If two internal devices use the same port to reach the same destination, replies become indistinguishable. NAT fixes this by:
+
+- Changing both the private IP and source port
+- Storing a unique entry in the NAT table
+- Ensuring replies reach the correct device
+
+## NAT Inside and Outside Addresses
+
+Inside refers to the addresses which must be translated. Outside refers to the addresses which are not in control of an organization. These are the network addresses where the translation will occur.
+
+![NAT](https://media.geeksforgeeks.org/wp-content/uploads/20250925155658939972/NAT.webp)
+
+NAT Inside & Outside Address
+
+|Term|Meaning|
+|---|---|
+|****Inside Local****|Private IP inside the network (actual host IP).|
+|****Inside Global****|Public IP representing the inside host externally.|
+|****Outside Local****|Destination IP as seen inside the local network.|
+|****Outside Global****|Actual IP of the external destination host.|
+
+## Types of NAT
+
+There are three types of NAT:
+
+![Static-NAT](https://media.geeksforgeeks.org/wp-content/uploads/20250812123705780750/Static-NAT.webp)
+
+Types of NAT
+
+### 1. Static NAT
+
+- Maps one private IP to one public IP (one - to - one mapping).
+- Commonly used in hosting, but not cost - effective for large organizations since each device requires a public IP.
+
+### 2. Dynamic NAT
+
+- Maps private IPs to public IPs from a predefined pool.
+- If the pool is exhausted, additional requests are dropped.
+- Suitable for networks with a limited number of users but still costly.
+
+### 3. Port Address Translation (PAT)
+
+- Also called NAT Overload.
+- Multiple private IPs share a single public IP, with unique port numbers distinguishing traffic.
+- Most widely used because it’s cost - effective and supports thousands of users with a single public IP.
+
+## NAT Techniques
+
+- ****Static Mapping****: Maps a specific private IP to a fixed public IP.
+- ****IP Masquerading****: Hides an entire private network behind a single public IP.
+- ****Translation Table Mapping****: Uses a NAT table to track multiple private - public mappings.
+- ****PAT (Port Address Translation)****: Adds port - level translation for efficient IP usage.
+- ****Round - Robin Mapping****: Distributes incoming connections from a single public IP to multiple private IPs in sequence.
+
+## Pros and Cons of NAT
+
+These are some pros and cons of NAT:
+
+| ****Pros of NAT****                             | ****Cons of NAT****                                    |
+| ----------------------------------------------- | ------------------------------------------------------ |
+| Conserves public IP addresses                   | Breaks end-to-end connectivity                         |
+| Hides internal network for security             | Can cause issues with some applications (VoIP, gaming) |
+| Enables multiple devices to share one public IP | Adds processing overhead on the router                 |
+| Improves privacy by masking internal IPs        | Makes peer-to-peer connections more complex            |
+
+
+High Availabity:
+	Definition: ensures that critical sevices and systems remain operational with minimal or no downtime
