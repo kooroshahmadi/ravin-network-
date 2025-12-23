@@ -24,3 +24,17 @@ Overview of MAC Address:
 
 mac address is unchangable by default
 using ip config you see your devices IP
+IP has 4 oted. each octed is 8bits. in total 32bits
+each bit is either 1 or 0
+
+IP classe:
+A => 0 - 126 => 0.0.0.0 - 126.255.255.255
+B => 128 - 191 => 192.0.0.0 - 191.255.255.255
+C => 192 - 223 => 192.0.0.0 - 223.255.255.255
+D => 224 - 239 => 224.0.0.0 - 239.255.255.255
+E => 240 - 254 => 240.0.0.0 - 254.255.255.255
+
+A, B, C => private addresses
+D => multicasting
+E => reserved
+
