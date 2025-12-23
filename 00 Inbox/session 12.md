@@ -15,3 +15,9 @@ Overview of NIC (Network Interface Card):
 	Why it's important:
 		the NIC is vital for network communication, allowing devices to connect and transfer data over both local and wide-area networks.
 
+Overview of MAC Address:
+	Definition: a MAC (Media Access Control) address is a unique identifier assigned to a network interface card for communication on the physical network layer.
+	Format: Typically consists of 6 pairs of hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E).
+	How it Works: the MAC address is used by devices to identify each other on a local network. it's used for data link layer communication (layer 2 of OSI).
+	Characteristics: Globally unique and assigned by the hardware manufacturer.
+	Permanent
