@@ -147,4 +147,9 @@ Overview of IPV6:
 		Written in hexadecimal and separated by colons. 
 		Leading zeros can be omitted, and double colons represent consecutive zeros.
 	Key Features of IPv6:
-		Larger Address Space (2^)
+		Larger Address Space (2^128 addresses).
+		Auto-configuration (no need for DHCP in many cases).
+		No need for NAT (public addresses are abundant).
+		Improved Security (built-in IPsec for encryption and authentication).
+		Efficient Routing (smaller routing tables).
+
