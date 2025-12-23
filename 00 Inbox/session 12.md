@@ -27,7 +27,7 @@ using ip config you see your devices IP
 IP has 4 oted. each octed is 8bits. in total 32bits
 each bit is either 1 or 0
 
-IP classe:
+IP classes:
 A => 0 - 126 => 0.0.0.0 - 126.255.255.255
 B => 128 - 191 => 192.0.0.0 - 191.255.255.255
 C => 192 - 223 => 192.0.0.0 - 223.255.255.255
@@ -37,4 +37,17 @@ E => 240 - 254 => 240.0.0.0 - 254.255.255.255
 A, B, C => private addresses
 D => multicasting
 E => reserved
+
+APPIPA IP
+LOOPBACK IP
+
+others are classless IP's
+
+Private IP:
+10.0.0.0 - 10.255.255.255
+172.16.0.0 - 122.16.255.255
+192.168.0.0. - 192.168.255.255
+
+
+127.0.0.0 - 127.255.255.255 loopback ip range, with this the device will refer to it self
 
