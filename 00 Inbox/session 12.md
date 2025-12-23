@@ -63,3 +63,6 @@ in 192.168.100.0 example
 	the broadcast ip is 192.168.100.255
 	the end ip is 192.168.100.254
 
+Overview of Defaul Gateway:
+	Definition: a network device (usually a router) that acts as an intermediary for forwarding packets from a local network to external networks, including the internet.
+	
