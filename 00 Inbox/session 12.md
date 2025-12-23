@@ -51,3 +51,8 @@ Private IP:
 
 127.0.0.0 - 127.255.255.255 loopback ip range, with this the device will refer to it self
 
+192.168.100.10/24 - this means that the first 24 bits are static. so it will be like this
+11111111.11111111.11111111.xxxxxxxx
+the first 24 bits are 1 !
+in this example if we calculate the IP it will be 255.255.255.0 and this is called subnet mask
+network ID
