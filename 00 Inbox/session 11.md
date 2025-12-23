@@ -549,3 +549,16 @@ Vendor dependency, vendor-neutral (open standard), Cisco proprietary
 convergence speed, slow, fast.
 
 
+Link-State Routing Protocols:
+	Link-State routing protocols build a complete network topology map to determine the best path.
+	How it Works:
+		each router builds a full network map using the shortest path first (SPF) algorithm.
+		Routing tables are updated dynamically when network changs occur.
+	Characteristics: 
+		uses bandwidth, delay, and link cost as metrics (not just hop count).
+		Faster convergence that distance-vector protocols.
+		Less bandwidth usage due to triggered updates instead of periodic updates.
+	Common Link-State Protocols:
+		OSPF (open shortest path first): open standard protocol used in enterprise networks.
+		IS-IS (intermediate system to intermediate system): udes on ISP and large-scale networks.
+	
