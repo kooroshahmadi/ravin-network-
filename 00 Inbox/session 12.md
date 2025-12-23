@@ -55,4 +55,11 @@ Private IP:
 11111111.11111111.11111111.xxxxxxxx
 the first 24 bits are 1 !
 in this example if we calculate the IP it will be 255.255.255.0 and this is called subnet mask
-network ID
+network ID - the static part of an ip is net ID
+and the dynamic part is hsot ID
+how to calculate available ip addresses => we take the static part of the IP (for example 255.255.255.0) and 32. then we take away the static part form 32. so in this example 32-24=8, then we take 2 and power it by the answer, so 2 ^ 8 => 256. then we take 256 - 2 which will give us 254 available IP's.
+in 192.168.100.0 example
+	the FIP (first ip) is 192.168.100.1
+	the broadcast ip is 192.168.100.255
+	the end ip is 192.168.100.254
+
