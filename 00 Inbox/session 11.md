@@ -431,3 +431,5 @@ Overview of Routing:
 		linked-state: OSPF, IS-IS
 		hybrid: BGP
 
+- **Hop Count**: The number of network segments or devices a data packet traverses before reaching its destination.
+-  **RIP (Routing Information Protocol)**: A routing protocol that utilizes hop count as a basic metric to determine the best routing path.
