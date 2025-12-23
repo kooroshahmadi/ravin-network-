@@ -433,3 +433,83 @@ Overview of Routing:
 
 - **Hop Count**: The number of network segments or devices a data packet traverses before reaching its destination.
 -  **RIP (Routing Information Protocol)**: A routing protocol that utilizes hop count as a basic metric to determine the best routing path.
+
+Enhanced Interior Gateway Routing Protocol (EIGRP) is an advanced distance-vector routing protocol that uses characteristics of both distance-vector and link-state protocols, making it a hybrid routing protocol. It operates at the Network Layer (Layer 3) of the OSI model and uses protocol number 88 for communication.
+
+> ****Note:**** EIGRP helps routers or Layer 3 switches dynamically discover and maintain the best paths for forwarding packets within an Autonomous System (AS).
+
+## Administrative Distance (AD) in EIGRP
+
+Administrative Distance defines the trustworthiness of routing information. Lower AD values indicate higher trust. EIGRP assigns the following AD values:
+
+|****EIGRP Routes****|****AD Value****|
+|---|---|
+|Summary Routes|5|
+|Internal Routes|90|
+|External Routes|170|
+
+## Key EIGRP Messages
+
+[EIGRP](https://www.geeksforgeeks.org/computer-networks/eigrp-configuration/) uses multiple message types for neighbor communication and routing updates. These messages can be multicast (224.0.0.10) or unicast, depending on the purpose:
+
+1. ****Hello Message****: Used for neighbor discovery and keep-alives. Sent every 5 seconds (Hello timer). If no hello is received within 15 seconds (Dead timer), the neighbor is declared dead.
+2. ****Full Update****: Sent after neighbor adjacency is formed. Contains all known best routes.
+3. ****Partial Update****: Triggered by topology changes. Contains only the new or changed routes.
+4. ****Query Message****: Sent when a destination is no longer reachable. Multicast to neighbors requesting alternative routes.
+5. ****Reply Message****: Sent in response to a query. Provides alternate route information.
+6. ****Acknowledgement Message****: A hello packet with no data, used to acknowledge updates, queries or replies.
+7. ****NULL Update:**** Used for calculating timers like SRTT (Smooth Round Trip Time) and RTO (Retransmission Timeout).
+
+> ****Note:**** Hello and Acknowledgement packets do not require acknowledgment. However, Query, Reply and Update messages are reliable and require acknowledgment.
+
+## Composite Metric in EIGRP
+
+EIGRP calculates its routing decision using a composite metric, which can include five variables:
+
+- ****K1**** -> Bandwidth
+- ****K2**** -> Load
+- ****K3**** -> Delay
+- ****K4**** -> Reliability
+- ****K5**** -> MTU
+
+> ****Note:**** By default, only K1 (bandwidth) and K3 (delay) are used. The default K values are (K1=1, K2=0, K3=1, K4=0, K5=0). This allows EIGRP to select the path with the lowest composite metric, ensuring efficient routing.
+
+## Neighbor Adjacency Requirements
+
+For two routers to form an EIGRP neighbor relationship, the following conditions must be satisfied:
+
+- K values must match.
+- Autonomous System (AS) number must be the same.
+- Subnet mask must be identical.
+- Authentication (if enabled) must match -> EIGRP supports MD5 authentication only.
+
+## EIGRP Timers
+
+EIGRP relies on timers for maintaining neighbor relationships:
+
+- ****Hello Timer****: 5 seconds (interval between hello messages).
+- ****Dead Timer (Hold Time)****: 15 seconds (neighbor declared dead if no hello received).
+
+> ****Note:**** These timers ensure stable communication and quick detection of failures.
+
+## Pros of EIGRP
+
+- Fast convergence using the Diffusing Update Algorithm (DUAL).
+- Supports VLSM and CIDR for efficient IP address usage.
+- Efficient bandwidth usage with partial updates instead of full table exchanges.
+- Scalability across large enterprise networks.
+- Unequal-cost load balancing supported.
+
+
+Overview of Routing Types:
+	Definition: routing types define how network paths are determined and managed.
+	Types of Routing:
+		Static Routing: manually configured routes that do not change automatically.
+		Dynamic Routing: uses protocols to update routes automatically based on network conditions.
+	Routing Process:
+		Static Routing: manually configured, does not chage automatically.
+		Dynamic Routing: Uses protocols to update routs based on network conditions.
+		Default Routing: a router forwards all unknown traffic to a predefined next-hop.
+Feature - static routing - dynamic routing
+configuration - manual - automated
+adapribility - automatic changes - adapts to network changes
