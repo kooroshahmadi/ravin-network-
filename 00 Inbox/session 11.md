@@ -516,3 +516,21 @@ adaptability - automatic changes - adapts to network changes
 CPU usage - low - high
 Scalability - Limited - high
 
+Overview of Static Routing:
+	Definition: static routing involves manually configuring routing entries in a router's routing table. routes do not change unless manually updated.
+	How it Works:
+		the network administrator manually specifies the destination network, the next-hop router, and other routing information.
+		no automatic updates occur; changes are made manually.
+	Characteristics:
+		predictable & simple: easy to configure and maintain in small networks.
+		Low CPU & Bandwidth Usage: since there are no dynamic updates.
+		No Scalability: not suitable for large or frequently changing networks.
+
+Overview of Dynamic Routing:
+	Definition: routing protocols determine the best path for data packets between networks.
+	Types of Routing protocols:
+		DIstance-Vector: Determines routes based on hop count (e.g., RIP, EIGRP).
+		Link-State: Builds a complete network map for better path decisions (e.g., OSPF, IS-IS).
+		Hybrid: Combines features of both types (e.g., BGP).
+	Routing Protocol Operation:
+		
