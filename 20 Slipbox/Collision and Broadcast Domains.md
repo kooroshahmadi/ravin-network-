@@ -11,6 +11,7 @@ check: verified
 Understanding boundaries in a network.
 
 ### 1. Collision Domain
+![[collison domain vs broadcast domain.png]]
 *   **Definition:** A segment where data packets can collide if two devices talk at once.
 *   **Goal:** You want **MANY** small collision domains.
 *   **The Hardware Rule:**
