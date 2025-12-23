@@ -727,4 +727,17 @@ These are some pros and cons of NAT:
 
 
 High Availabity:
-	Definition: ensures that critical sevices and systems remain operational with minimal or no downtime
+	Definition: ensures that critical sevices and systems remain operational with minimal or no downtime, even during hardware or software failures.
+	How it Works:
+		uses redundant system or devices.
+		performs automatic failover if the primary system fails.
+		often includes load balancing to distribute traffic evenly.
+
+protocol, description
+VRRP (virtual router redudndancy protocol), creates a virtual router to switch between active and backup routers
+HSRP (hot standby router protocol - cisco), cisco-propietary rptocol for router redundancy
+GLBP (gateway load balancing protocol), provides both redundancy  and traffic distribution.
+CARP (common address redundancy protocol), open-source altarnatice to VRRP (used in BSD systems)
+
+
+ 
