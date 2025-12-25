@@ -2,4 +2,8 @@ PING Tool:
 	Definition:
 		the ping utility is a basic network diagnostic tool used to test the reachability of a host on an IP network and measure round-trip time for messages sent from the origin to the destination.
 
-Gemeni add a table of 
+Gemeni add a table of ping tools message, meaning, likely cause, and solution.
+
+TRACEROUTE Tool:
+	Definition: the traceroute utility traces the path that packet from a source device to a destination IP address by incrementally increasing the TTL value. it helps identify routiing loops, delays or dropped packets alog the network path.
+Gemini add a table of mssage/behavior, meaning, likely cause, and solution
