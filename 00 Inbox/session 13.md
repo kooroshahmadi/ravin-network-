@@ -36,6 +36,10 @@ gemini add the definition, and table.
 
 
 ROUTE tool:
-Gemini add the information.
+Gemini add the information and table .
 
 telnet tool:
+Gemini add info and table.
+
+netsh tool:
+add info and table.
