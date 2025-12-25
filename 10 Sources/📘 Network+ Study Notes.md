@@ -155,3 +155,6 @@ subject: Network+
 
 ### 4. Redundancy
 ![[High Availability Protocols]]
+
+
+## Session 12: IP Addressing & Math ### 1. Hardware Addressing ![[NIC and MAC Addresses]] ### 2. IPv4 & Math ![[IPv4 Addressing Basics]] ![[Subnetting and CIDR]] ### 3. The Future (IPv6) ![[IPv6 Fundamentals]]
