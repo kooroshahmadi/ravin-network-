@@ -6,4 +6,9 @@ Gemeni add a table of ping tools message, meaning, likely cause, and solution.
 
 TRACEROUTE Tool:
 	Definition: the traceroute utility traces the path that packet from a source device to a destination IP address by incrementally increasing the TTL value. it helps identify routiing loops, delays or dropped packets alog the network path.
-Gemini add a table of mssage/behavior, meaning, likely cause, and solution
+Gemini add a table of mssage/behavior, meaning, likely cause, and solution for traceroute.
+
+ipconfig/ifconfig tool:
+	Definition: ip config (on windows) and ifconfig (on linux/Unix) are command-line tools used to view and manage network interface configuration on operating systems.
+
+Gemini add a table of command/output, pupose/description, and tshooting example/insight for ip config.
