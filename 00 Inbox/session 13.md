@@ -23,3 +23,19 @@ NSLOOKUP tool:
 
 Gemini add a table for this too.
 
+NETSTAT tool:
+	Definition: netstat is a command-line utility that provides information about active network connections, listening ports, protocol statistics, and routing tables. it is essential for troubleshooting connectivity issues, identifying open ports, and tracking suspicious connections.
+Gemini add the table.
+
+ARP tool:
+the arp command is used to view and manage the arp chache on a system. a table that maps IP addresses to MAC addresses on the local network. it helps tshootinh local connectivity issues and can reveal security threats such as arp spoofing
+Gemini add the table
+
+TCPDUMP tool:
+gemini add the definition, and table.
+
+
+ROUTE tool:
+Gemini add the information.
+
+telnet tool:
