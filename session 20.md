@@ -226,20 +226,45 @@ Patch Management:
 		monitor outcomes and maintain logs.
 
 Security Awareness Training:
-	What is Security awaerness Training:
-		Security Awareness Training is a continious process that educates emplotees to :
+	What is Security awareness Training:
+		Security Awareness Training is a continuous process that educates employees to :
 			recognize security threats
-			follow best preactices
+			follow best practices
 			properly respond to attacks such as phishing, social engineering, and malware
 		Why its Crucial:
 			users are the weakest link in the security chain
 			90% of breaches stem from human error
-			helps prevent users from falling for malivious email or links
-			Improves copliance with internal security policies
-		KEy Training Topics:
+			helps prevent users from falling for malicious email or links
+			Improves compliance with internal security policies
+		Key Training Topics:
 			Phishing recognition and response
 			strong password habits
 			Handling unknown devices
 			BYOD and access policy awareness
 			prompt incident reporting procedures
 
+Mobile Device Security:
+	what is mbile device security:
+		mobile device security involves policies, technologies, and procedures to protect smartphones, tablets, and laptops from cyber and physical threats.
+	Why is matters:
+		Devices often connect to unsecured public networks
+		phishing, malware, and physical theft target mobile users
+		Sensitive data may be stored on transmitted via mobile devices.
+	Key Security measures.
+	enable full device encryption
+	use strong screen locks
+	employ mobile device management
+	avoid connection to untrusted public Wi-Fi
+	regularly update OS and applications
+
+
+Security policies and procedures:
+	Definition: securiyt policies adn provedures are a set of rules, standards, adn guidelines designed to manage adn safeguard an organizations information assests. they help maintain confidentiality, integrity, adn availability of data.
+	why it matters;
+		defines user responsibilities and scceptanle behavior
+		minimizes human error and insider threats
+		provides a framework fo rincident response and accountability
+		supports compliance and audit requirements.
+common policies & procedures.
+policy type, description
+acceptable use police
