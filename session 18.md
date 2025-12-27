@@ -52,4 +52,6 @@ Example:
 
 SIEM Workflow:
 	Log Collection:
-		Gathers data from FIrewalls, servers, 
+		Gathers data from FIrewalls, servers, os, applications, and more.
+	Normalization:
+		Converts differrent log formats into a unified structu
