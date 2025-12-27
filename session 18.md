@@ -41,4 +41,9 @@ Why do Organizations Need SIEM:
 			Helps meet standards like GDPR, HIPPA, and ISO 27001 thorugh proper logging and reporting.
 		Faster Incident Response:
 			SIEM alerts reduce response time and enable proactive actions.
-		Operational Efficiency
+		Operational Efficiency:
+			Reduces the need for manual log checks by automating data analysis.
+
+Example:
+	Imagine a junior admin mistakenly grans themselves root access to a production DB.
+	Without SIEM, this goes unnoticed
