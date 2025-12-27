@@ -14,3 +14,18 @@ Concept, Question Answered, Purpose
 Authentication, Who are you?, identity verification
 Authorization, what are you allowed to do, grants or restricts permissions.
 
+Security Filtering:
+	Access Control Lists (ACLs)
+	ACLs are sules applied to router or switch interfaces that define whether packets are permitted or denied based on:
+		Source IP address
+		Destination IP address
+		Protocol or port numbers
+	Types:
+		Standard ACl: Filters by source IP only.
+		Extended ACL: Filters by source, destionation, protocol, and port.
+	Tunneling:
+		Tunneling is the process of encapsulation traffic in a secure wrapper for transmission over insecure networks.
+		Used in VPNs (GRE, IPsec, L2TP).
+	Encryption:
+		Encryption ensures confidentiality of data in transit or at rest.
+		Symmetric (e.g., A)
