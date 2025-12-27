@@ -29,3 +29,16 @@ Key Components of a SIEM System:
 
 talk about AFTA rules for log storage Gemini
 
+Why do Organizations Need SIEM:
+	Main Reasons:
+		Improved Visibility:
+			Centralizes all security events from network devices, os, and apps.
+		Advanced Threat Detection:
+			Detects complex attacks like APTs through correlation and anomaly detection.
+		Real-time Monitoring:
+			Monitors and alerts on suspicious activity instantly.
+		Regulatory Compliance:
+			Helps meet standards like GDPR, HIPPA, and ISO 27001 thorugh proper logging and reporting.
+		Faster Incident Response:
+			SIEM alerts reduce response time and enable proactive actions.
+		Operational Efficiency
