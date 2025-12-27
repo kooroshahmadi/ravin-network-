@@ -38,7 +38,7 @@ Why do Organizations Need SIEM:
 		Real-time Monitoring:
 			Monitors and alerts on suspicious activity instantly.
 		Regulatory Compliance:
-			Helps meet standards like GDPR, HIPPA, and ISO 27001 thorugh proper logging and reporting.
+			Helps meet standards like GDPR, HIPPA, and ISO 27001 through proper logging and reporting.
 		Faster Incident Response:
 			SIEM alerts reduce response time and enable proactive actions.
 		Operational Efficiency:
@@ -49,3 +49,7 @@ Example:
 	Without SIEM, this goes unnoticed.
 	With SIEM, the privilege is logged and alerted instantly for review.
 
+
+SIEM Workflow:
+	Log Collection:
+		Gathers data from FIrewalls, servers, 
