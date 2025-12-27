@@ -15,3 +15,13 @@ SIEM (Security Information and Event Management):
 			Antivirus detection of a suspicious script.
 				SIEM correlates the events and raises an alert for a potential brute-force or lateral movement attack.
 
+Key Components of a SIEM System:
+	Core Components Explained:
+		Log collection: collects logs from devices (firewalls, servers, endpoints) using agents, syslog, API, or SNMP.
+		Normalization: Converts logs from various formats into a standard structure for unified analysis.
+		Correlation Engine: Detects patterns and relationships between events across different systems to identify threats.
+		Alerting: Sends alerts when suspicious or predefined patterns are detected, either via dashboards, email, or integration with ticketing systems.
+		Dashboards & Reports: Visual interface to monitor system activity and generate compliance/audit reports.
+		Log Storage: Retains logs for months/years based on compliance requirements (e.g., PCI-DSS, GDPR).
+	Example:
+		a Windows server logs multiple failed login attempts. A firewall logs a blocked IP shortly after. SIEM correlates both, identifies the source IP as potentially malicious, and triggers an alert to the security team
