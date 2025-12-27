@@ -192,3 +192,11 @@ subject: Network+
 
 ### 3. Concepts
 ![[Exploits vs Vulnerabilities]]
+
+
+## Session 17: Log Management (Syslog)
+
+### 1. Syslog Fundamentals
+![[Syslog for Network Monitoring]]
+
+
