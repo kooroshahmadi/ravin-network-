@@ -112,3 +112,32 @@ Network Access Control (NAC) & Challenge-Based Protocols:
 		Device compliance check before granting network access (anitvirus status, OS version, firewall, etc.). Often built into NAC systems.
 
 
+Authorization Models (RBAC, ABAC, DAC):
+	RBAC - Role-Based Access Control
+	Access is granted based on the user's tole withing the organization.
+	Example: All finance team members have access to the payroll folder.
+	Pros:
+		Easy to manage
+		Organizationally aligned
+	Cons:
+		Less flexible in complex scenarios
+	ABAC-Attribute-Based Access Control
+		Access is determined by evaluating attributes of:
+			The user
+			The resource
+			The environment
+	Pros:
+		Highly flexible and scalable
+	Cons:
+		Complex to implement and maintain
+	DAC - Discretionary Access Control:
+		The owner fo a resource determines who can access it.
+		Example: A user shares a spreadsheet with a colleague.
+	Pros: User-level control and flexibility
+	Cons:
+		Risk of accidental exposure of misuse
+
+
+Identity Federation & Single Sign-on (SSO):
+	Identity Federation:
+		A trust relationship that allows users to access multiple sys
