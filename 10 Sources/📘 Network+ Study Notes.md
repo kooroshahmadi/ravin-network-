@@ -200,3 +200,7 @@ subject: Network+
 ![[Syslog for Network Monitoring]]
 
 
+## session 18: Security Operations (SecOps)
+![[SIEM Fundamentals]]
+![[SIEM Workflow and Use Cases]]
+![[Log Retention and Compliance]]
