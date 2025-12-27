@@ -18,4 +18,13 @@ Sweeping for network mappinga:
 	attacker sends an ICMP echo request to a range of IP addresses.
 		if sometheing replies, that address is in use by some target system.
 		if nothing replies, that address is not in use, or there is network filtering.
-	by default, nmap sweeps each target address befor port scanning using 
+	by default, nmap sweeps each target address befor port scanning using host directory
+		can be skipped for greater accuracy -Pn but will slow down the scan
+	run nmap as root for best results.
+
+Port Scanning:
+	port scanners are a must for any attacker's toolbox.
+	they help identify openings on a system adn the type of system
+		allowing an attacker to focus an attacak
+	most internet applicaitons user TCP or UDP
+
