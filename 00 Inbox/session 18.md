@@ -54,4 +54,25 @@ SIEM Workflow:
 	Log Collection:
 		Gathers data from FIrewalls, servers, os, applications, and more.
 	Normalization:
-		Converts differrent log formats into a unified structu
+		Converts differrent log formats into a unified structure.
+	Storage:
+		Securly stores logs for real-time and historical analysis.
+	Correlation:
+		Analyzes relationships between events using rules or machine learning.
+	Detection & alerting:
+		Identifies suspicious or abnormal behavior and triggers alerts.
+	Analysis & Response:
+		SOC analysts investigate the incident and respond accordingly
+	SIEM doesnt just collect logs - it understands them.
+
+Key Use Cases of SIEM in CyberSecurity:
+	intrusionn Dtection:
+		detects common attack patterns like port scans, brute-force attempts, or privilege abuse.
+	Incident Response:
+		Triggers alerts and helps security teams respond quickly and efficiently.
+	User Behaviour Monitoring (UEBA):
+		Forensics:
+			Tracks down the who, what, where, and how of a security invident for post-breach analysis.
+		Compliance Reporting:
+			Helps organizations meet regulatory requirements like GDPR, ISO 21001, or HIPPA.
+
