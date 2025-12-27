@@ -204,3 +204,15 @@ subject: Network+
 ![[SIEM Fundamentals]]
 ![[SIEM Workflow and Use Cases]]
 ![[Log Retention and Compliance]]
+
+
+## Session 19: Physical Security
+
+### 1. Layers & Controls
+![[Physical Security Layers]]
+![[Physical Access Control Methods]]
+
+### 2. Environment (Fire/Power)
+![[Environmental Controls]]
+
+
