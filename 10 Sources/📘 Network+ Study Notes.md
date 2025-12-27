@@ -216,3 +216,14 @@ subject: Network+
 ![[Environmental Controls]]
 
 
+## Session 20: Identity & Policy
+
+### 1. AAA & Authentication
+![[AAA Framework]]
+![[Authentication Types and MFA]]
+
+### 2. Authorization
+![[Authorization Models (RBAC DAC ABAC)]]
+
+### 3. Management & Policy
+![[Security Policies and DLP]]
