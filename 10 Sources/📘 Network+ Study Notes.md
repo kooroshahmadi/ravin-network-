@@ -178,3 +178,17 @@ subject: Network+
 
 ### 4. Lab Environments
 ![[Network Lab Tools]]
+
+
+## Session 16: Security Threats
+
+### 1. Network Attacks
+![[Denial of Service Attacks]]
+![[Password and Encryption Attacks]]
+
+### 2. Wireless & Human Threats
+![[Wireless Threats]]
+![[Social Engineering and Phishing]]
+
+### 3. Concepts
+![[Exploits vs Vulnerabilities]]

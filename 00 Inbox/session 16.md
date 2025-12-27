@@ -14,4 +14,10 @@ Ransomware:
 a specific type of attack that when gained access to the victim's device or server will encrypt the data on it rendering the device unusable for some time until a specific amount of money is paid or the conditions of the bad actors has been meat.
 
 Brute Force:
-imagine that we have a login page or a file that is password protected. using this method of attack the bad actor will use big dectionaries of 
+imagine that we have a login page or a file that is password protected. using this method of attack the bad actor will use big dectionaries of passwords and will try a few of them periodically using specific software e.g., jhon the ripper comes to mind.
+
+Man in the Middle:
+in this scenario someone physically or virtually will penetrate a network and install a software or a device that sits between two devices (for example a client and a server) and then that perform survailence.
+
+Exploits and Vulnerabilities:
+Gemini add its description.
