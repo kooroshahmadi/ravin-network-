@@ -70,3 +70,13 @@ Syslog Configuration on Cisco Routers/Switches:
 	Router(config)# logging console [Optional]
 	Router(config)# end
 
+Syslog Receiver Tools:
+tool name, platform, features, strengths
+kiwi syslog, windows, Gui-based log receiver with filtering and alerting, easy to install / free
+graylog, linux/windows, log aggregationand dashboards and analysis, scalable & enterprise-ready
+Syslog-ng, linux, high-performance log collector with custom output options, advanced routing/filtering
+TFTPD32, windows, lightweight tool with Syslog and DHCP adn TFTp in one, simple & multifunction tool
+
+Filtering and Analyzing Syslog Logs with Tools:
+	Kiwi Syslog Server:
+		type: free windows GUI based Syslog 
