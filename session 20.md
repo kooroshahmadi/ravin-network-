@@ -164,3 +164,11 @@ Identity Federation & Single Sign-on (SSO):
 	Cons:
 		if the central account is compromised, all services are at risk
 		Requires strong backend security (MFA, monitoring, etc.)
+
+
+AAA - Authentication, Authorization, and Accounting:
+	What is AAA:
+		AAA is a security framework that provides:
+			Authentication - Verifies who you are (via username/password, token, digital certificate, etc.)
+			Authorization - Determines what you are allowed to do (network access, specific commands, services, ...)
+			Accounting - Logs what 
