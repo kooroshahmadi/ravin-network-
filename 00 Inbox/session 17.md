@@ -12,7 +12,21 @@ Introduction:
 			Interpret log messages for troubleshooting.
 			Identify and respond to basic network events.
 	Why Syslog Matters:
-		Logs are the first line of defense for detecting network events adn attacks.
-		They are essential for audits, compliace, adn operational visibility.
+		Logs are the first line of defense for detecting network events and attacks.
+		They are essential for audits, compliance, and operational visibility.
 		Syslog is a widely supported, lightweight method for centralized logging.
+
+What is Syslog?
+	Definition:
+		a standardized protocol used to send log and event messages form network devices to a central log server.
+	How it Works:
+		Devices generate log messages.
+		Logs are sent to a Syslog server using UDP port 514.
+		Admins use this server to review and analyze logs centrally.
+	Syslog Message Structure:
+		A typical Syslog message includes:
+			Timestamp.
+			Hostname.
+			Facility & severity level.
+			Descriptive message.
 
