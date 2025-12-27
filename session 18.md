@@ -13,4 +13,5 @@ SIEM (Security Information and Event Management):
 		SIEM receives logs from a firewall, a Windows server, and antivirus software. it detects:
 			Multiple failed login attempts form the same IP.
 			Antivirus detection of a suspicious script.
-				SIEM correlates the events and raises an alart for a potential brute-force or lateral movement attack.
+				SIEM correlates the events and raises an alert for a potential brute-force or lateral movement attack.
+
