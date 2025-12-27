@@ -51,4 +51,16 @@ Managing User Account and Password Security:
 		Local Authentication:
 			Authentication data is stored locally on the device.
 			Suitable for standalone or limited-access systems.
+	LDAP:
+		Protocol for accessing user information in directories like Microsoft Active Directory. used for centralized authentication.
+	Certificates:
+		Used in public key infrastructure for validating user identity and securing communications (SSL/TLS).
+	Multifactor Authentication (MFA):
+		Requires two or more authentication factors:
+			Something you know
+			something you have
+			something you are
+			Strongly improves security posture.
 
+User-Authentication Methods:
+	
