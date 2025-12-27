@@ -212,8 +212,34 @@ Mobile Device Management (MDM):
 
 
 Patch Management:
-	Patch Management is the process of installing and managing software software update to fix bugs, close security vulnerabilities, adn improve performance.
-	Why patch management amtters:
-		enhances security: prevents exploitaiton of known vulnerabilities
+	Patch Management is the process of installing and managing software software update to fix bugs, close security vulnerabilities, and improve performance.
+	Why patch management matters:
+		enhances security: prevents exploitation of known vulnerabilities
 		improves system stability: reduces crashes and malfunctions
-		compliance: 
+		compliance: helps meet legal and organizational standards
+		Centralized control: ensures all systems are uniformly updated
+	Key steps in the process:
+		identify outdated software
+		assess patch risks and relevance
+		test parches in a sandbox/test environment
+		Deploy patches during low-usage windows
+		monitor outcomes and maintain logs.
+
+Security Awareness Training:
+	What is Security awaerness Training:
+		Security Awareness Training is a continious process that educates emplotees to :
+			recognize security threats
+			follow best preactices
+			properly respond to attacks such as phishing, social engineering, and malware
+		Why its Crucial:
+			users are the weakest link in the security chain
+			90% of breaches stem from human error
+			helps prevent users from falling for malivious email or links
+			Improves copliance with internal security policies
+		KEy Training Topics:
+			Phishing recognition and response
+			strong password habits
+			Handling unknown devices
+			BYOD and access policy awareness
+			prompt incident reporting procedures
+
