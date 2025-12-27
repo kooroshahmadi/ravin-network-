@@ -200,4 +200,20 @@ Mobile Device Management (MDM):
 		MDM refers to a set of tools and policies used to manage, control, adn secure monile devices like smartphones, tablets, and laptops connected to the corporate netwrok
 	Key Functions:
 		configure devices (WI-Fi, VPN, Email, etc)
-		
+		Enforce security policies (password rules, data encryption)
+		Control access to corporate resources
+		Remote lock or wipe in case of loss or theft
+		Monitor apps and manage software updates
+	Benefits of MDM for organizations:
+		secure data on BYOD devices
+		Enforce control over corporate resource usage
+		Quick response to device-related security threats
+		Maintain compliance with legal and internal policies
+
+
+Patch Management:
+	Patch Management is the process of installing and managing software software update to fix bugs, close security vulnerabilities, adn improve performance.
+	Why patch management amtters:
+		enhances security: prevents exploitaiton of known vulnerabilities
+		improves system stability: reduces crashes and malfunctions
+		compliance: 
