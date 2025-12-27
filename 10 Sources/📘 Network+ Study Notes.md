@@ -158,3 +158,19 @@ subject: Network+
 
 
 ## Session 12: IP Addressing & Math ### 1. Hardware Addressing ![[NIC and MAC Addresses]] ### 2. IPv4 & Math ![[IPv4 Addressing Basics]] ![[Subnetting and CIDR]] ### 3. The Future (IPv6) ![[IPv6 Fundamentals]]
+
+
+## Session 13: Troubleshooting Tools
+
+### 1. Basic Connectivity
+![[Ping Diagnostic Tool]]
+![[Traceroute Diagnostic Tool]]
+![[Netsh and Telnet]]
+
+### 2. Configuration & Management
+![[IP Configuration Tools]]
+![[Netstat and ARP Tools]]
+![[NSLookup and DNS Tools]]
+
+### 3. Advanced / Linux Specific
+![[Advanced Network Tools]]
