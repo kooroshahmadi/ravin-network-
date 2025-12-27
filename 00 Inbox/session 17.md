@@ -48,4 +48,14 @@ Syslog Message Structure:
 	A typical message looks like: 
 		<PRI> timestamp hostname tag: message
 		component, Description
-		<PRI> En
+		<PRI>, Encoded priority (facility x 8 + severity)
+		timestamp, time of the event
+		hostname, source device name or IP
+		tag, process or module gengerating the log
+		message, description of the event
+	Real example: 
+		<189> Jan 14 10:24:01 router01 SSHD[12345]: Login succesful from 192.168.1.100
+	Explanation:
+		<189> => facility 23 (local7), severity 5 (Notice)
+		Jan 14 10:24:01 => time
+		router01 => hostname
