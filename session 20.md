@@ -63,4 +63,27 @@ Managing User Account and Password Security:
 			Strongly improves security posture.
 
 User-Authentication Methods:
-	
+	Public Key Infrastructure (PKI):
+		Framework for issuing and managing digital certificates.
+		Used for:
+			Securing web traffic (HTTPS).
+			Digital signatures.
+			Certificate-based login.
+	Kerberos:
+		Ticket-based authentication protocol used in Windows domains.
+		Central authority: KDC (Key Distribution Center).
+		Credentials are never sent in plain text.
+	AAA (Authentication, Authorization, Accounting)
+		Three-layer access control model:
+			Authentication: Validating Identity.
+			Authorization: Granting appropriate access
+			Accounting: Logging activities
+				used with protocols like Radius or TACAS+.
+	Web Services:
+		Modern apps use API-based authentication with protocols such as OAuth 2.0 and OpenID Connect.
+	Unified Voice Services:
+		Authentication for VoIP Systems using SIP-based mechanisms.
+	Network Controllers:
+		Centralized authentication for wired/wireless devices via platforms like Cicso DNA Center.
+
+Network Access C
