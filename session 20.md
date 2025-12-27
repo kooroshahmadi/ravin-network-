@@ -2,7 +2,7 @@
 
 what is Authentication?
 	Authentication is the process of verifying the identity of a user or device. it ensures that the person or system is who they claim to be. this can be done through:
-		Psswords
+		Passwords
 		Smart cards
 		Biometric data
 			Example: Logging into a system with username and password.
