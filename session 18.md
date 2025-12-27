@@ -46,4 +46,6 @@ Why do Organizations Need SIEM:
 
 Example:
 	Imagine a junior admin mistakenly grans themselves root access to a production DB.
-	Without SIEM, this goes unnoticed
+	Without SIEM, this goes unnoticed.
+	With SIEM, the privilege is logged and alerted instantly for review.
+
