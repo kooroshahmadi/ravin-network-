@@ -140,4 +140,27 @@ Authorization Models (RBAC, ABAC, DAC):
 
 Identity Federation & Single Sign-on (SSO):
 	Identity Federation:
-		A trust relationship that allows users to access multiple sys
+		A trust relationship that allows users to access multiple systems with a single digital identity.
+		The user logs in through an identity provider (Idp), and other services trust the authentication.
+	Common Standards:
+		SAML
+		OAuth 2.0
+		OpenID Connect
+			example: Logging into Zoom using you Google account.
+	Pros:
+		no need for multiple account
+		simplified corss-organization authentication.
+
+
+Identity Federation & Single Sign-on (SSO):
+	Single Sign-On (SSO):
+	Login once to gain access to multiple related services.
+	example:
+		Accessing Outlook, Teams, and OneDrive after logging into Microsoft 365.
+	Pros:
+		Improved user experience
+		Reduces password-related attacks
+		Easier account management
+	Cons:
+		if the central account is compromised, all services are at risk
+		Requires strong backend security (MFA, monitoring, etc.)
