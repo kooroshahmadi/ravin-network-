@@ -59,3 +59,14 @@ Syslog Message Structure:
 		<189> => facility 23 (local7), severity 5 (Notice)
 		Jan 14 10:24:01 => time
 		router01 => hostname
+		SSHD[12345] => process
+		Login successful ... => message body
+
+Syslog Configuration on Cisco Routers/Switches:
+	Router> enable
+	Router# configure terminal
+	Router(config)# logging trap warnings
+	Router(config)# service timestamps log datetime msec
+	Router(config)# logging console [Optional]
+	Router(config)# end
+
