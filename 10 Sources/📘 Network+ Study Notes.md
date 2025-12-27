@@ -227,3 +227,11 @@ subject: Network+
 
 ### 3. Management & Policy
 ![[Security Policies and DLP]]
+
+## Session 21: Advanced Reconnaissance
+
+### 1. Network Discovery
+![[Nmap Basics and Discovery]]
+
+### 2. Port Scanning
+![[Port Scanning Techniques]]
