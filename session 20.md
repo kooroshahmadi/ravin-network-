@@ -86,4 +86,29 @@ User-Authentication Methods:
 	Network Controllers:
 		Centralized authentication for wired/wireless devices via platforms like Cicso DNA Center.
 
-Network Access C
+Network Access Control (NAC) & Challenge-Based Protocols:
+	Network Access Control (NAC):
+		A security framework to enforce access policies based on user, device, locations, or security posture.
+			Capabilities:
+				Block infected or non-compliant devices.
+				Guest User isolation.
+				Integration with antivirus, firewall and MDM tools
+				popular tools: Cisco ISE, Aruba clearpass
+	IEEE 802.1x:
+		Standard for port-based Network access control.
+		used EAP for authentication exchange
+		Roles:
+			supplicant (user device)
+			Authenticatior (switch or access point)
+			Authentication server (e.g., RADIUS)
+	Challenge-Based Protocols:
+		Authentication via challenge-response methods.
+		Examples:
+			CHAP (Challenge Handshake Authentication Protocol)
+			EAP-CHAP / EAP-TLS
+			MS-CHAPv2 (used in windows domains)
+			More secure tha password-only methods.
+	Posture Assessment:
+		Device compliance check before granting network access (anitvirus status, OS version, firewall, etc.). Often built into NAC systems.
+
+
