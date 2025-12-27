@@ -171,4 +171,33 @@ AAA - Authentication, Authorization, and Accounting:
 		AAA is a security framework that provides:
 			Authentication - Verifies who you are (via username/password, token, digital certificate, etc.)
 			Authorization - Determines what you are allowed to do (network access, specific commands, services, ...)
-			Accounting - Logs what 
+			Accounting - Logs what you did, when you did, and for how long.
+	Common AAA Protocols:
+		RADIUS
+		TACACS+
+	Use Case:
+		Remote login to reouters/switches
+		VPN access control
+		Role-based access and detailed activity logging.
+
+Data Loss Prevention (DLP):
+What is DLP:
+	DLP refers to technologies and policies designed to prevent sensitive data from leaving the organization. it protects:
+		Personally Identifieble Information (PII)
+		Financial or health records
+		Intellectual property
+	Types of DLP:
+		Network DLP - monitors outbound network traffic.
+		Endpoint DLP - Controls user activity on devices.
+		Cloud DLP - Protects data in cloud platforms
+	Why is DLP Important:
+		Prevents accidental or malicious data leakage.
+		Helps meet compliance requirements
+		Reduces risk of data breaches and reputational damage.
+
+Mobile Device Management (MDM):
+	What is MDM:
+		MDM refers to a set of tools and policies used to manage, control, adn secure monile devices like smartphones, tablets, and laptops connected to the corporate netwrok
+	Key Functions:
+		configure devices (WI-Fi, VPN, Email, etc)
+		
