@@ -79,4 +79,19 @@ TFTPD32, windows, lightweight tool with Syslog and DHCP adn TFTp in one, simple 
 
 Filtering and Analyzing Syslog Logs with Tools:
 	Kiwi Syslog Server:
-		type: free windows GUI based Syslog 
+		type: free windows GUI based Syslog viewer.
+	Features:
+		filter logs based on severiety
+		highlight specific patterns
+		send alerts via sound or email
+	Smaple scenatio:
+		Cisco switch sends an error log (severity 3)
+		Kiwi filters only levels 0-3 and displays it
+		admin inversigatess which interface caused the issue
+	Graylog:
+		type: enterpsise grade, opensource log collector
+	Features:
+		advanced seach and filtering
+		real time dashboards
+		alreting when specific patterns are detected
+		facility: local7 and severity:3 3 and source;switch-1
