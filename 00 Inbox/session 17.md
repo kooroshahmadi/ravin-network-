@@ -95,3 +95,4 @@ Filtering and Analyzing Syslog Logs with Tools:
 		real time dashboards
 		alreting when specific patterns are detected
 		facility: local7 and severity:3 3 and source;switch-1
+
