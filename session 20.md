@@ -28,4 +28,27 @@ Security Filtering:
 		Used in VPNs (GRE, IPsec, L2TP).
 	Encryption:
 		Encryption ensures confidentiality of data in transit or at rest.
-		Symmetric (e.g., A)
+		Symmetric (e.g., AES)
+		Asymmetric (e.g.,RSA)
+	Remote Access:
+		Remote Access allows administrators to connect to a network from external locations.
+		Common protocols: SSH, VPN, RDP.
+		Requires secure authentication and encryption.
+
+Managing User Account and Password Security:
+	Managing User Accounts:
+		Administrators should control who can access systems, define roles, and disable unused or orphaned accounts.
+	Managing Passwords:
+		Password policies must be enforced:
+			Minimum length.
+			Complexity requirements.
+			Periodic expiration.
+			Prohibit reuse of old passwords
+		Single Sign-On (SSO):
+			Allows users to authenticate once and access multiple systems.
+			Improved usability.
+			If compromised, attacker gains board access.
+		Local Authentication:
+			Authentication data is stored locally on the device.
+			Suitable for standalone or limited-access systems.
+
