@@ -7,7 +7,7 @@ SIEM (Security Information and Event Management):
 		Analyze, correlate, and generate alerts.
 		Enable visibility across the infrastructure.
 		Support compliance and forensics.
-	SIEM is the brain and eyes of the Security  Operations Center (SoC):
+	SIEM is the brain and eyes of the Security Operations Center (SoC):
 		it helps detect threats like internal misuse, external intrusions, and compliance violations.
 	Example:
 		SIEM receives logs from a firewall, a Windows server, and antivirus software. it detects:
@@ -25,3 +25,7 @@ Key Components of a SIEM System:
 		Log Storage: Retains logs for months/years based on compliance requirements (e.g., PCI-DSS, GDPR).
 	Example:
 		a Windows server logs multiple failed login attempts. A firewall logs a blocked IP shortly after. SIEM correlates both, identifies the source IP as potentially malicious, and triggers an alert to the security team
+
+
+talk about AFTA rules for log storage Gemini
+
