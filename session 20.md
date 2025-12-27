@@ -267,4 +267,10 @@ Security policies and procedures:
 		supports compliance and audit requirements.
 common policies & procedures.
 policy type, description
-acceptable use police
+acceptable use policy,  outline acceptable and prohibited uses of IT resources
+password policy, enforces complexity and change requirments for passwords
+incident response policy, guides the organizations response to security incidents
+remote access policy, governs secure remote connectivity to internal systems
+data classification policy, defiens levels of data sendivity and appropriate handlign
+
+
