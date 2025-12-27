@@ -30,3 +30,22 @@ What is Syslog?
 			Facility & severity level.
 			Descriptive message.
 
+Syslog Severity Levels:
+	What is severity?
+		it indicates the criticality of the event. Syslog defines 8 severity levels (0 -7).
+	Severity Table:
+		level, name, description
+		0, emergency, system is unusable.
+		1, alert, immediate action required
+		2, critical, critical condition but still recoverable
+		3, error, non-critical error occurred
+		4, warning, potential issue, may escalate
+		5, notice, important event, not an error
+		6, informational, general operational messages (boot, login, ...)
+		7, debug, debug-level messages for developers
+
+Syslog Message Structure:
+	A typical message looks like: 
+		<PRI> timestamp hostname tag: message
+		component, Description
+		<PRI> En
