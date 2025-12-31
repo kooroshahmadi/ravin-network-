@@ -10,3 +10,4 @@ Ethernet:
 		GigabitEthernet 0/0
 		GigabitEthernet 1/0/1
 		TenGigabitEthernet 1/1
+		module => Interface TYPE Module Number/Interface number
