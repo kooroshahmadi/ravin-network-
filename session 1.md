@@ -21,4 +21,4 @@ Ethernet:
 
 lets go through a scenario:
 	we have a network with star topology and we want to ping a device on that network.
-	first on layer 3 we have the ip but there is no MAC address to icmp will be frozen in ram and arp will come into play. arp has the mac address of the source but not the destination. for instead of the destination mac address it will put ff:ff:ff:ff:ff:ff (this is the broadcast MAC address)
+	first on layer 3 we have the ip but there is no MAC address to icmp will be frozen in ram and arp will come into play. arp has the mac address of the source but not the destination. for instead of the destination mac address it will put ff:ff:ff:ff:ff:ff (this is the broadcast MAC address). and will broadcast in the network, by this the switch will get a reply by the destination and will learn the the mac address of the 
