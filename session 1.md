@@ -18,3 +18,7 @@ Ethernet:
 		Is to forward frames between devices.
 		a Switch will decide its actions based on its MAC Address Table.
 		a Switch will forward frames based on destination MAC address.
+
+lets go through a scenario:
+	we have a network with star topology and we want to ping a device on that network.
+	first on layer 3 we have the ip but there is no MAC address to icmp will be frozen in ram and arp will come into play. arp has the mac address of the source but not the destination. for instead of the destination mac address it will put ff:ff:ff:ff:ff:ff (this is the broadcast MAC address)
