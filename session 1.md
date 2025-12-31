@@ -5,4 +5,8 @@ Ethernet:
 		fix: the number of ports on the switch is fixed and cannot be changed.
 		modular: the ports on the switch can be changed using moduls that will slide in the device.
 	Port Types:
-		
+		FastEthernet 0/0
+		FastEthernet 0/1
+		GigabitEthernet 0/0
+		GigabitEthernet 1/0/1
+		TenGigabitEthernet 1/1
