@@ -19,19 +19,24 @@ Switch(config-if)# no shutdown             <-- Turn it on (SVI is down by defaul
 Switch(config)# ip default-gateway 192.168.1.1  <-- Required to reach switch from other subnets
 ```
 
-2. Configuring Telnet (VTY Lines)
-Telnet uses the VTY (Virtual Teletype) lines.
-Prerequisite: The Switch MUST have an Enable Secret set, or Telnet will refuse connection.
-code
-Cli
+### 2. Configuring Telnet (VTY Lines)
+
+Telnet uses the **VTY (Virtual Teletype)** lines.
+
+- Prerequisite: The Switch **MUST** have an Enable Secret set, or Telnet will refuse connection.
+```
 Switch(config)# line vty 0 15              <-- Configure all 16 virtual lines
 Switch(config-line)# password cisco
 Switch(config-line)# login                 <-- Check for password
 Switch(config-line)# transport input telnet <-- Allow Telnet (or 'ssh', or 'all')
-3. Why login local is better
-If you use login local on VTY lines, you can see which admin made changes.
-code
-Cli
+```
+
+### 3. Why login local is better
+If you use login local on VTY lines, you can see which admin made changes.
+
+```Cli
 Switch(config)# username bob secret bobpass
 Switch(config)# line vty 0 15
 Switch(config-line)# login local
+```
+

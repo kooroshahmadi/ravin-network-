@@ -18,3 +18,10 @@ subject: CCNA 200-301
 
 ## Part 2: Switching & VLANs
 ![[Switching Logic and MAC Learning]]
+
+
+## Part 1: Network Fundamentals & CLI
+![[Device Hardening and Passwords]]
+![[Cisco Memory and Boot]]
+![[Management Access (SVI and Telnet)]]
+![[Interface Verification Commands]]
