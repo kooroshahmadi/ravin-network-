@@ -32,3 +32,18 @@ now in these days there are some ways of connecting to a switch:
 	3. usb cable
 	4. RJ-45 to USB
 Cisco switches operate at 9600 bps
+
+CLI Modes:
+	User Mode: you are just a user with limited accessibility (ping, mac-table viewing)
+		Switch>
+		Router>
+	Enable Mode or Privilege Mode: used for data gathering, tshoot, verifying, and show commands
+		 Switch#
+		 Router#
+		 can be accessed using "enable" command
+	Global Configuration Mode: anything that is configuration
+		Switch(config)#
+		Router(config)#
+		can be accessed using configure "terminal"
+
+to see help in CLI use "?"
