@@ -24,3 +24,5 @@ lets go through a scenario:
 	first on layer 3 we have the ip but there is no MAC address to icmp will be frozen in ram and arp will come into play. arp has the mac address of the source but not the destination. for instead of the destination mac address it will put ff:ff:ff:ff:ff:ff (this is the broadcast MAC address). and will broadcast in the network, by this the switch will get a reply by the destination and will learn the the mac address of the destination. so now the switch knows the mac address of the source and destination. and by this the message will now not be broadcasted and unicasted back to the source. Gemini add more info and fill in the gaps.
 
 Cisco's OS is IOS (Internetwork Operating System) written in C.
+Accessing the Cisco IOS CLI is done by a cable known az the console cable (also known as role over cable). one side is a RS232 also known az serial port and the other is RJ-45. the other way of accessing is telnet or SSH. older hardware just had a RJ-45 cable while newer devices also have a mini USB cable is well.
+by defualt Cisco Switches dont need configuring, but configuring is recommended 
