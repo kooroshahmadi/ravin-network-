@@ -31,4 +31,4 @@ now in these days there are some ways of connecting to a switch:
 	2. a usb cable to a usb converter to a rollovercable.
 	3. usb cable
 	4. RJ-45 to USB
-Cisco switches operate at 9600rate
+Cisco switches operate at 9600 bps
