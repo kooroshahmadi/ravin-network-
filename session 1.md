@@ -26,3 +26,9 @@ lets go through a scenario:
 Cisco's OS is IOS (Internetwork Operating System) written in C.
 Accessing the Cisco IOS CLI is done by a cable known az the console cable (also known as role over cable). one side is a RS232 also known az serial port and the other is RJ-45. the other way of accessing is telnet or SSH. older hardware just had a RJ-45 cable while newer devices also have a mini USB cable is well.
 by defualt Cisco Switches dont need configuring, but configuring is recommended 
+now in these days there are some ways of connecting to a switch:
+	1. serial port to RJ-45 => rollover cable.
+	2. a usb cable to a usb converter to a rollovercable.
+	3. usb cable
+	4. RJ-45 to USB
+Cisco switches operate at 9600rate
