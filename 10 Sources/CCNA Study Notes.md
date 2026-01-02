@@ -18,4 +18,4 @@ subject: CCNA 200-301
 ![[Device Hardening and Passwords]]
 ![[Cisco Memory and Boot]]
 ![[Management Access (SVI and Telnet)]]
-![[Interface Verification Commands]]![[Configuring SSH on Cisco]] ## Part 2: Switching & VLANs ![[VLAN Concepts and Config]] ![[Trunking and 802.1Q]] ![[Layer 3 Routed Ports]]
+![[Interface Verification Commands]]![[Configuring SSH on Cisco]] ## Part 2: Switching & VLANs ![[VLAN Concepts and Config]] ![[Trunking and 802.1Q]] ![[Layer 3 Routed Ports]]![[10 Sources/99 Attachments/VLAN and Trunk.pkt]]
